@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(149, 205, 232);
+}
+
+body {
+  border: 5px solid rgb(112, 201, 77);
+  color: white;
+  margin: 35px;
+  padding: 30px;
+  font-weight: 500;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: 400;
+}
+h1,
+nav {
+  text-align: center;
+}
+
+h1, 
+h2,
+p {
+  padding-bottom: 25px;
+}
+
+img {
+  height: 250px;
+  width: auto;
+  float: right;
+}
+
+a{
+  color: rgb(112, 201, 77);
+  border-right: 2px solid gray;
+  padding-right: 5px;
+}
+
+a:last-child {
+  border: none;
+}
+
+ header a:first-child {
+  color: white;
+}
+
+
+
