@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  height: 175px;
+  border: 2px solid black;
+}
+
+section {
+  float: left;
+  height: 375px;
+  width: 33.333%;
+  border: 2px solid black;
+}
+
+footer {
+  clear: both;
+}
+
+@media screen and (max-width:600px){
+  section {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  section {
+    float: left;
+    width: 50%;
+  }
+
+  .solo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  section {
+    float: left;
+    width: 33.333%;
+  }
+}
+
+
+
+
