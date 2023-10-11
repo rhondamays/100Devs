@@ -11,19 +11,25 @@ h2 {
   border: 2px solid orange;
 }
 
-/* > means direct child */
-section > p {
+section {
   width: 50%;
   height: 200px;
   background: gray;
   border: 2px solid black;
+}
+
+section > p {
   color: white;
 }
 
-footer > h3 {
+footer {
   background: black;
-  border: 2px solid lightgreen;
+  border: 2px solid lawngreen;
+  font-size: 20px;
+}
+
+footer > h3 {
   color: white;
   font-size: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto;
 }
